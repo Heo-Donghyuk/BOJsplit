@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "BOJ Split View",
+  "version": "1.0.0",
+  "description": "백준 문제를 보면서 코드를 작성할 수 있게 해주는 확장 프로그램",
+  "permissions": [
+    "activeTab",
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": [
+    "https://www.acmicpc.net/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.acmicpc.net/submit/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ]
+}
