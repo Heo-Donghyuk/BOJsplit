@@ -4,8 +4,8 @@ BOJ Split View는 [백준 온라인 저지(BOJ)](https://www.acmicpc.net)에서 
 탭을 전환하지 않고 **문제를 보면서 코드를 작성하고 제출**할 수 있어 더욱 편리한 문제 풀이 환경을 제공합니다.
 
 ## 주요 기능
-<img width="5088" height="3356" alt="image" src="https://github.com/user-attachments/assets/7d13d3cc-844a-47b7-ad48-0fc644aaa662" />
 
+<img width="5088" height="3356" alt="image" src="https://github.com/user-attachments/assets/7d13d3cc-844a-47b7-ad48-0fc644aaa662" />
 
 ### 1. 분할 화면 보기
 
@@ -34,9 +34,6 @@ BOJ Split View는 [백준 온라인 저지(BOJ)](https://www.acmicpc.net)에서 
 ### 수동 설치 (개발자 모드)
 
 1. 이 저장소를 다운로드하거나 Clone
-   ```bash
-   git clone https://github.com/yourusername/BOJsplit.git
-   ```
 2. Chrome에서 `chrome://extensions/` 접속
 3. 우측 상단의 "개발자 모드" 활성화
 4. "압축해제된 확장 프로그램을 로드합니다" 클릭
@@ -53,7 +50,6 @@ BOJ Split View는 [백준 온라인 저지(BOJ)](https://www.acmicpc.net)에서 
 
 BOJ Split View는 다음 권한을 사용합니다:
 
-- **activeTab**: 현재 열린 제출 페이지에만 확장 프로그램이 동작합니다.
 - **declarativeNetRequestWithHostAccess**: 문제 페이지를 iframe에 표시하기 위해 필요한 HTTP 헤더를 수정합니다.
 - **host_permissions (acmicpc.net)**: 문제 내용을 추출하여 분할 화면에 표시하기 위해 필요합니다.
 
