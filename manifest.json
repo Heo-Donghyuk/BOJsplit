@@ -3,7 +3,7 @@
   "name": "백준 스플릿 뷰 (BOJ Split)",
   "version": "1.0.0",
   "description": "백준 문제를 보면서 코드를 작성할 수 있도록 Split View를 제공하는 크롬 확장 프로그램입니다.",
-  "permissions": ["activeTab", "declarativeNetRequestWithHostAccess"],
+  "permissions": ["declarativeNetRequestWithHostAccess"],
   "host_permissions": ["https://www.acmicpc.net/*"],
   "declarative_net_request": {
     "rule_resources": [
